@@ -386,42 +386,103 @@
             <div class="stremdestacados">
 
         
-                <div class="st1">
-
-                    <div class="divideo">
-                        <div class="endirecto">EN DIRECTO</div>
-                        <video class="imgvideo" src="img/stream.mp4" autoplay muted></video>
-                    </div>
-
-                    <div class="divdescripcion">
-
-                        <div class="divcanal">
-
-                            <div>
-                                <img class="canaldestacado" src="img/niubyy.png" alt="">
-                                
-                            </div>
-
-                            <div>
-                                <p class="canaldestacadotxt">Niubyy</p>
-                                <p class="canaldestacadotxt">Phasmophobia</p>
-                                <p class="espectadorestexto">545 espectadores</p>
-                            </div>
-
-                            <div class="botones">
-                                <button class="btnidioma">Español</button>
-                                <button class="btnidioma">gameplay</button>
-                            </div>
-
-                            <div class="streamtexto">
-                                <p class="espectadorestexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae dolorem doloribus libero similique cupiditate quis ratione pariatur et dolor assumenda, modi sapiente minima eum error excepturi eligendi dicta quas ducimus?</p>
+                <div class="carousel-abc123">
+                    <div class="carousel-inner-xyz456">
+                        <div class="carousel-item-efg789 active">
+                            <div class="st1">
+            
+                                <div class="divideo">
+                                    <div class="endirecto">EN DIRECTO</div>
+                                    <video class="imgvideo" src="img/stream.mp4" autoplay muted></video>
+                                </div>
+            
+                                <div class="divdescripcion">
+            
+                                    <div class="divcanal">
+            
+                                        <div>
+                                            <img class="canaldestacado" src="img/niubyy.png" alt="">
+                                            
+                                        </div>
+            
+                                        <div>
+                                            <p class="canaldestacadotxt">Niubyy</p>
+                                            <p class="canaldestacadotxt">Phasmophobia</p>
+                                            <p class="espectadorestexto">545 espectadores</p>
+                                        </div>
+            
+                                        <div class="botones">
+                                            <button class="btnidioma">Español</button>
+                                            <button class="btnidioma">gameplay</button>
+                                        </div>
+            
+                                        <div class="streamtexto">
+                                            <p class="espectadorestexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae dolorem doloribus libero similique cupiditate quis ratione pariatur et dolor assumenda, modi sapiente minima eum error excepturi eligendi dicta quas ducimus?</p>
+                                        </div>
+                                    </div>
+            
+                                </div>
                             </div>
                         </div>
-
+                        <div class="carousel-item-efg789">
+                            <div class="st1-mno012">
+                                <div class="divideo">
+                                    <div class="endirecto">EN DIRECTO</div>
+                                    <video class="imgvideo" src="img/stream.mp4" autoplay muted></video>
+                                </div>
+                                <div class="divdescripcion">
+                                    <div class="divcanal">
+                                        <div>
+                                            <img class="canaldestacado" src="img/carrera.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="canaldestacadotxt">Carreraaa</p>
+                                            <p class="canaldestacadotxt">Juegos Randoms</p>
+                                            <p class="espectadorestexto">535 espectadores</p>
+                                        </div>
+                                        <div class="botones">
+                                            <button class="btnidioma">Inglés</button>
+                                            <button class="btnidioma">gameplay</button>
+                                        </div>
+                                        <div class="streamtexto">
+                                            <p class="espectadorestexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, delectus!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item-efg789">
+                            <div class="st1-mno012">
+                                <div class="divideo">
+                                    <div class="endirecto">EN DIRECTO</div>
+                                    <video class="imgvideo" src="img/stream.mp4" autoplay muted></video>
+                                </div>
+                                <div class="divdescripcion">
+                                    <div class="divcanal">
+                                        <div>
+                                            <img class="canaldestacado" src="img/carrera.png" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="canaldestacadotxt">Carreraaa</p>
+                                            <p class="canaldestacadotxt">Juegos Randoms</p>
+                                            <p class="espectadorestexto">535 espectadores</p>
+                                        </div>
+                                        <div class="botones">
+                                            <button class="btnidioma">Inglés</button>
+                                            <button class="btnidioma">gameplay</button>
+                                        </div>
+                                        <div class="streamtexto">
+                                            <p class="espectadorestexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, delectus!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-
+                    <button class="carousel-control-prev-vfr678" onclick="moveCarousel(-1)">&#10094;</button>
+                    <button class="carousel-control-next-tgb901" onclick="moveCarousel(1)">&#10095;</button>
                 </div>
+                <script src="script.js"></script>
 
             </div>
 
@@ -698,6 +759,19 @@
             </div>
 
         </div>
+
+
+        <script>
+    
+            let currentIndex = 0;
+        
+                function moveCarousel(step) {
+                    const items = document.querySelectorAll('.carousel-item-efg789');
+                    currentIndex = (currentIndex + step + items.length) % items.length;
+                    const offset = -currentIndex * 100;
+                    document.querySelector('.carousel-inner-xyz456').style.transform = `translateX(${offset}%)`;
+                }
+            </script>
             
 </body>
 </html>

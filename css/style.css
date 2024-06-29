@@ -913,3 +913,128 @@ p{
     display: flex;
     margin-left: 9% !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-abc123 {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 755px;
+}
+
+.carousel-inner-xyz456 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-efg789 {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.st1-mno012 {
+    display: flex;
+}
+
+.divideo-qwe345 {
+    position: relative;
+    width: 50%;
+}
+
+.divdescripcion-asd234 {
+    width: 50%;
+    padding: 20px;
+    background: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.endirecto-rty678 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.imgvideo-uio901 {
+    width: 100%;
+}
+
+.divcanal-zxc567 {
+    display: flex;
+}
+
+.canaldestacado-vbn890 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.canaldestacadotxt-ghj123 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.espectadorestexto-klm456 {
+    font-size: 14px;
+    color: gray;
+}
+
+.botones-qaz789 {
+    margin-top: 10px;
+}
+
+.btnidioma-wsx012 {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btnidioma-wsx012:hover {
+    background: #0056b3;
+}
+
+.streamtexto-edc345 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.carousel-control-prev-vfr678,
+.carousel-control-next-tgb901 {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-vfr678 {
+    left: 10px;
+}
+
+.carousel-control-next-tgb901 {
+    right: 10px;
+}
