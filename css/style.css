@@ -35,14 +35,14 @@ li.nav-item.dropdown {
     align-items: center !important;
 }
 
-.barnav{
+.barnav {
     display: flex;
     width: 100%;
     height: 50px;
     background-color: #18181b;
     border-bottom: 2px solid black;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* seccion de la barra de navegacion 1 */
