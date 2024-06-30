@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 body::-webkit-scrollbar {
     width: 7px;    
   }
@@ -1039,4 +1047,8 @@ p{
 .carousel-control-next-tgb901 {
     z-index: 5;
     right: 10px;
+}
+
+.dnonen{
+    display: none !important;
 }
