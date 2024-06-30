@@ -9,6 +9,8 @@
         font-weight: 500;
         color: #bf94ff;
         font-size: 40px;
+        margin-right: 1%;
+        margin-left: 1%;
     }
 
     .qpg {
@@ -102,10 +104,10 @@
     }
 
     .imgdirecto {
-        width: 620px;
+        width: 680px;
         cursor: pointer;
         transition: 0.3s ease-in;
-        height: 320px;
+        height: 360px;
     }
 
     .canalimg {
@@ -143,13 +145,8 @@
         margin-right: 2%;
     }
 
-    span.CoreText-sc-1txzju1-0.bQZyxb {
-        margin-right: 1%;
-    }
-
-
     .titulo1 {
-        width: 890px;
+        width: 900px;
         margin-bottom: 5%;
         margin-top: 5%;
     }
