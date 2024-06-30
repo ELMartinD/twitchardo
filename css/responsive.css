@@ -1,0 +1,179 @@
+@media (max-width: 480px) {
+    .seccionpadre {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        width: 4%;
+        height: 100%;
+        background: #1f1f23;
+        z-index: -1;
+        top: 7%;
+    }
+
+    .jugando{
+        display: none;
+    }
+
+    .puntito{
+        display: none;
+    }
+
+    .flechaizq{
+        width: 60px;
+        height: 60px;
+    }
+
+    .seccionpadre {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        width: 5%;
+        height: 100%;
+        background: #1f1f23;
+        z-index: -1;
+        top: 2%;
+    }
+
+    .stremdestacados {
+        width: 1100px;
+        height: 350px;
+        display: flex;
+        margin-top: 18%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    .divdescripcion {
+        width: 220px;
+        height: 320px;
+        background-color: #18181b;
+    }
+
+    .imgvideo {
+        width: 530px;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .streamers1 {
+        display: inline-block;
+        margin-right: 7%;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .imgdirecto {
+        width: 520px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+        height: 280px;
+    }
+
+    .canalimg {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    .canales1 {
+        display: flex;
+        flex-wrap: nowrap !important;
+        width: 100%;
+        height: 42px;
+        padding: 5px 10px;
+        transition: 0.1s;
+        margin-bottom: 15%;
+    }
+
+    .titulo1 {
+        width: 400px;
+        margin-bottom: 3%;
+    }
+
+    .barnav {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: #18181b;
+        border-bottom: 2px solid black;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .contenedorsec1 {
+        display: flex;
+        width: 18%;
+        align-items: center;
+    }
+
+    .contenedorsec2 {
+        width: 58%;
+    }
+
+    .contenedorsec3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 26%;
+    }
+
+    .inicio {
+        width: 105px !important;
+        height: 35px !important;
+    }
+
+    .registrar{
+        width: 105px !important;
+        height: 35px !important;
+    }
+
+    .buscadores {
+        height: 40px;
+    }
+
+    .btnbuscar {
+        height: 40px;
+    }
+
+    .streamtitulo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        color: white;
+        width: 470px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .barra {
+        background-color: #2f2f35;
+        height: 2px;
+        display: flex;
+        margin-top: 12px;
+        width: 455px;
+    }
+
+    .mm {
+        padding: 5px;
+        color: #bf94ff;
+        text-align: center;
+        width: 115px;
+    }
+
+    .categoria1 {
+        margin: 0% 5% 0% 0%;
+    }
+
+    .categoriaimg {
+        width: 250px;
+        transition: 0.3s;
+    }
+
+    .dnone{
+        display: none;
+    }
+  }
