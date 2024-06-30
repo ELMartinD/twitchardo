@@ -566,6 +566,8 @@ p{
     display: inline-block;
     font-size: 14px;
     text-align: start;
+    margin-top: -1%;
+    margin-bottom: 1%;
 }
 
 .streamtitulo:hover{
