@@ -287,7 +287,7 @@
     }
 
     .imglogo {
-        width: 85px;
+        width: 85px !important;
         height: 85px;
     }
 
