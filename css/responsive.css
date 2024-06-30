@@ -104,10 +104,10 @@
     }
 
     .imgdirecto {
-        width: 680px;
+        width: 720px;
         cursor: pointer;
         transition: 0.3s ease-in;
-        height: 360px;
+        height: 380px;
     }
 
     .canalimg {
@@ -199,7 +199,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         color: white;
-        width: 510px;
+        width: 600px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -217,7 +217,7 @@
         color: white;
         position: absolute;
         width: 210px;
-        top: 10px;
+        top: 15px;
         left: 15px;
         z-index: 1;
     }
@@ -231,9 +231,10 @@
         color: white;
         position: absolute;
         width: 330px;
-        top: 300px;
+        top: 320px;
         left: 15px;
     }
+
 
 
     .barra {
