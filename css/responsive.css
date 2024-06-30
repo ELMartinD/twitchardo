@@ -211,29 +211,30 @@
     .directo {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 32px;
         border-radius: 4px;
         background-color: red;
         color: white;
         position: absolute;
-        width: 180px;
+        width: 210px;
         top: 10px;
-        left: 10px;
+        left: 15px;
         z-index: 1;
     }
 
     .vistas {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
-        font-size: 23px;
+        font-size: 30px;
         border-radius: 4px;
         background-color: rgba(0, 0, 0, 0.61);
         color: white;
         position: absolute;
-        width: 270px;
-        top: 272px;
-        left: 10px;
+        width: 330px;
+        top: 300px;
+        left: 15px;
     }
+
 
     .barra {
         background-color: #2f2f35;
