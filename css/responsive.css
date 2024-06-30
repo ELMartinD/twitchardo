@@ -140,6 +140,7 @@
         display: inline-block;
         height: 50px;
         margin-top: 2%;
+        margin-right: 2%;
     }
 
 
@@ -197,7 +198,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         color: white;
-        width: 520px;
+        width: 510px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
