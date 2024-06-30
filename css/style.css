@@ -646,8 +646,7 @@ p{
     top: -21px;
 }
 
-.vistas{
-
+.vistas {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -655,10 +654,13 @@ p{
     background-color: rgba(0, 0, 0, 0.61);
     color: white;
     position: absolute;
-    width: 150px;
+    width: 160px;
     top: 165px;
     left: 10px;
+}
 
+.tick{
+    width: 10px;
 }
 
 
@@ -778,7 +780,7 @@ p{
     font-size: 13px;
 }
 
-.canaldestacadotxt{
+.canaldestacadotxt {
     display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -787,6 +789,7 @@ p{
     text-align: center;
     cursor: pointer;
     height: 23px;
+    align-items: center;
 }
 
 .canaldestacadotxt:hover{
