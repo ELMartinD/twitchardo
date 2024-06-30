@@ -19,6 +19,7 @@
         color: white;
         font-size: 40px;
     }
+
     
 
     .mte {
@@ -288,6 +289,11 @@
     .imglogo {
         width: 85px;
         height: 85px;
+    }
+
+    .tick{
+        width: 30px;
+        height: 30px;
     }
 
     .dnone{
