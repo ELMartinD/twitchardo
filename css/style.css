@@ -1032,9 +1032,11 @@ p{
 }
 
 .carousel-control-prev-vfr678 {
+    z-index: 5;
     left: 10px;
 }
 
 .carousel-control-next-tgb901 {
+    z-index: 5;
     right: 10px;
 }
