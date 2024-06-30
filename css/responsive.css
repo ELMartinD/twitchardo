@@ -136,6 +136,12 @@
         overflow: auto;
     }
 
+    .perfilogo {
+        display: inline-block;
+        height: 50px;
+        margin-top: 2%;
+    }
+
 
     .titulo1 {
         width: 890px;
