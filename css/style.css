@@ -96,11 +96,11 @@ body::-webkit-scrollbar-thumb {
     height: 50px;
 }
 
-.navp2{
+.navp2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75px;
+    width: 110px;
     height: 50px;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -144,9 +144,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.explorartxt{
+.explorartxt {
     cursor: pointer;
     transition: 0.1s;
+    font-size: 18px;
 }
 
 .explorartxt:hover{
@@ -384,7 +385,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .stremdestacados {
-    width: 1100px;
+    width: 1200px;
     height: 300px;
     display: flex;
     margin-top: 6%;
@@ -626,8 +627,8 @@ body::-webkit-scrollbar-thumb {
 
 /* seccion titulos destacados */
 
-.directos{
-    width: 95%;
+.directos {
+    width: 100%;
     margin: auto;
 }
 
@@ -671,7 +672,7 @@ body::-webkit-scrollbar-thumb {
 
 .secciondirectos {
     display: flex;
-    margin: 1% 1% 0% 0%;
+    margin: 1% 0% 0% 0%;
 }
 
 .tick{
@@ -685,12 +686,11 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     display: inline-block;
     text-align: center;
-    width: 340px;
+    width: 320px;
 }
 
 .imgdirecto {
-    width: 340px;
-    height: 194px;
+    width: 301px;
     cursor: pointer;
     transition: 0.3s ease-in;
 }
@@ -727,8 +727,8 @@ body::-webkit-scrollbar-thumb {
     color: white;
     position: absolute;
     width: 160px;
-    top: 165px;
-    left: 10px;
+    top: 140px;
+    left: 15px;
 }
 
 .perfilogo{
@@ -751,7 +751,7 @@ body::-webkit-scrollbar-thumb {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: white;
-    width: 300px;
+    width: 260px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -803,10 +803,10 @@ body::-webkit-scrollbar-thumb {
     margin-top: 3%;
 }
 
-.separador{
-    width: 438px;
+.separador {
+    width: 550px;
     height: 30px;
-    margin: 0px 10px 0px 10px
+    margin: 0px 10px 0px 10px;
 }
 
 .barra {
@@ -816,10 +816,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 12px;
 }
 
-.mm{
+.mm {
     padding: 5px;
     color: #bf94ff;
     text-align: center;
+    width: 110px;
 }
 
 .mm:hover{
@@ -867,12 +868,13 @@ body::-webkit-scrollbar-thumb {
 
 /* seccion categorias en vivo */
 
-.categorias{
+.categorias {
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
     justify-content: space-between;
     display: flex;
+    padding-right: 1%;
 }
 
 .categoriaimg{

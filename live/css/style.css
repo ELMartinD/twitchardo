@@ -164,9 +164,10 @@ body::-webkit-scrollbar-thumb {
 
 
 
-.explorartxt{
+.explorartxt {
     cursor: pointer;
     transition: 0.1s;
+    font-size: 18px;
 }
 
 .explorartxt:hover{

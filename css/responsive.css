@@ -1,5 +1,9 @@
 @media (max-width: 550px) {
 
+    .nomostrar{
+        display: inline !important;
+    }
+
     .home{
         width: 95%;
     }
@@ -304,4 +308,13 @@
     .dnonen{
         display: flex !important;
     }
+  }
+
+
+  @media (max-width: 1500px) {
+
+    .nomostrar{
+        display: none;
+    }
+
   }
