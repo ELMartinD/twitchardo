@@ -52,6 +52,25 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+.secciondirectos::-webkit-scrollbar {
+    width: 7px;   /* Ancho de la barra vertical */
+    height: 7px;  /* Alto de la barra horizontal */
+}
+
+.secciondirectos::-webkit-scrollbar-track {
+    background: transparent;   
+}
+
+.secciondirectos::-webkit-scrollbar-thumb {
+    background-color: rgb(36, 36, 36); 
+    border-radius: 20px;      
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+
+
+
+
 
 /* fin barra de scroll */
 
@@ -79,7 +98,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #18181b;
     border-bottom: 2px solid black;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 .contenedorsec1{
@@ -142,6 +161,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #393941;
 
 }
+
 
 
 .explorartxt{
@@ -375,21 +395,241 @@ body::-webkit-scrollbar-thumb {
 
 
 
+/* seccion chat */
+
+.seccionchat {
+    display: flex;
+    margin-top: 3%;
+    width: 25%;
+    height: 800px;
+    background-color: #18181b;
+    right: 0%;
+    position: fixed;
+    z-index: 2;
+}
+
+.csv {
+    background-color: #1f1f23;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.csvtxt{
+    font-size: 13px;
+}
+
+.contraerchat {
+    width: 20%;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+.flechaderecha{
+    display: flex;
+    width: 25px;
+    padding: 2px;
+    transition: 0.2s;
+}
+
+.flechaderecha:hover{
+    background-color: #2d2d33;
+}
+
+.mte{
+    margin-top: 2%;
+}
+
+
+/* fin seccion chat */
+
+
+
+
+
+
+
+/* seccion info del stream */
+
+
+.infodelstream {
+    display: flex;
+    width: 905px;
+    height: 110px;
+    background-color: #0e0e10;
+}
+
+a {
+    text-decoration: none !important;
+    color: #a970ff !important;
+}
+
+.divimgcanalgrande {
+    display: grid;
+    margin: 1% 0% 0% 2.7%;
+}
+
+.imgcanalgrande{
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    border: 2px solid red;
+}
+
+.imgcanalgrande:hover{
+    outline: 2px solid red;
+}
+
+.canalendirecto {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    position: relative;
+    width: 100px;
+    bottom: 20px;
+    right: 15px;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.streamernombre {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.botonitos {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 6%;
+}
+
+.streamertitulo{
+    width: 100%;
+    display: flex;
+}
+
+.titular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.titularview{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.titularcanal{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+
+.juego{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px;
+    color: #a970ff;
+}
+
+.vertodo{
+    display: inline-flex;
+    width: 86px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px;
+    color: #a970ff;
+}
+
+.vertodo:hover{
+    background-color: #36363d;
+}
+
+.info {
+    margin-top: 9%;
+}
+
+.viewers{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #ff8280;
+}
+
+.mtop {
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+    width: 220px;
+    justify-content: space-evenly;
+}
+
+button.btn.btn-secondary.registrar {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+/* fin seccion info del stream */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* seccion carrousel */
 
-.home{
+.home {
     position: absolute;
-    width: 82%;
+    width: 84%;
     right: 0%;
 }
 
 .stremdestacados {
-    width: 1100px;
-    height: 300px;
+    height: 500px;
+    height: 540px;
+    object-fit: cover;
     display: flex;
-    margin-top: 6%;
-    justify-content: center;
-    margin-bottom: 5%;
+    margin-top: 4%;
 }
 
 
@@ -672,6 +912,9 @@ body::-webkit-scrollbar-thumb {
 .secciondirectos {
     display: flex;
     margin: 1% 1% 0% 0%;
+    overflow: auto;
+    width: 865px;
+    height: 295px;
 }
 
 .tick{
@@ -685,7 +928,6 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     display: inline-block;
     text-align: center;
-    width: 340px;
 }
 
 .imgdirecto {
@@ -798,9 +1040,9 @@ body::-webkit-scrollbar-thumb {
 
 /* seccion mostrar mas */
 
-.mostrarmas{
+.mostrarmas {
     display: flex;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .separador{

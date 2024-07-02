@@ -1,0 +1,306 @@
+@media (max-width: 550px) {
+
+    .home{
+        width: 95%;
+    }
+
+    .ced {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: #bf94ff;
+        font-size: 40px;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .qpg {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 40px;
+    }
+
+    
+
+    .mte {
+        margin-top: 48% !important;
+    }
+
+    .jugando {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #adadb8;
+        text-align: start;
+        margin-bottom: 0.2%;
+    }
+
+    .btnidioma {
+        width: 185px;
+        background-color: #29292e;
+        color: #adadb8;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 2%;
+        margin-right: 2%;
+        border: none;
+        border-radius: 5cm;
+    }
+
+    .categoriatxt {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        font-size: 40px;
+    }
+
+    .espectadorestxt {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        color: #adadb8;
+    }
+
+    .puntito{
+        display: none;
+    }
+
+    .flechaizq{
+        width: 60px;
+        height: 60px;
+    }
+
+    .seccionpadre {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        width: 5%;
+        height: 100%;
+        background: #1f1f23;
+        z-index: -1;
+        top: 2%;
+    }
+
+
+    .divdescripcion {
+        width: 220px;
+        height: 320px;
+        background-color: #18181b;
+    }
+
+    .imgvideo {
+        width: 530px;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .streamers1 {
+        display: inline-block;
+        margin-right: 7%;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        height: 600px;
+    }
+
+    .imgdirecto {
+        width: 720px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+        height: 380px;
+    }
+
+    .canalimg {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+    }
+
+    .canales1 {
+        display: flex;
+        flex-wrap: nowrap !important;
+        width: 100%;
+        height: 42px;
+        padding: 5px 10px;
+        transition: 0.1s;
+        margin-bottom: 15%;
+    }
+
+    .secciondirectos{
+        display: flex;
+        width: 1100px;
+        overflow: auto;
+    }
+
+    .categorias{
+        display: flex;
+        width: 1100px;
+        overflow: auto;
+    }
+
+    .perfilogo {
+        display: inline-block;
+        height: 50px;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+
+    .titulo1 {
+        width: 900px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .barnav {
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background-color: #18181b;
+        border-bottom: 2px solid black;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .contenedorsec1 {
+        display: flex;
+        width: 41%;
+        align-items: center;
+    }
+
+    .contenedorsec2 {
+        width: 30%;
+    }
+
+    .contenedorsec3 {
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+
+    .inicio {
+        width: 105px !important;
+        height: 35px !important;
+    }
+
+    .registrar{
+        width: 105px !important;
+        height: 35px !important;
+    }
+
+    .buscadores {
+        height: 40px;
+    }
+
+    .btnbuscar {
+        height: 40px;
+    }
+
+    .streamtitulo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: white;
+        width: 600px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: inline-block;
+        font-size: 40px;
+        text-align: start;
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+
+    .directo {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        border-radius: 4px;
+        background-color: red;
+        color: white;
+        position: absolute;
+        width: 210px;
+        top: 15px;
+        left: 15px;
+        z-index: 1;
+    }
+
+    .vistas {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.61);
+        color: white;
+        position: absolute;
+        width: 330px;
+        top: 320px;
+        left: 15px;
+    }
+
+
+
+    .barra {
+        background-color: #2f2f35;
+        height: 2px;
+        display: flex;
+        margin-top: 12px;
+        width: 455px;
+    }
+
+    .mm {
+        padding: 5px;
+        color: #bf94ff;
+        text-align: center;
+        width: 115px;
+    }
+
+    .categoria1 {
+        margin: 0% 5% 0% 0%;
+        height: 730px;
+    }
+
+    .categoriaimg {
+        width: 400px;
+        transition: 0.3s;
+    }
+
+    svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navp1{
+        width: 30%;
+        height: 80px;
+    }
+
+    .navp2{
+        width: 20%;
+        height: 80px;
+    }
+
+    .navp3{
+        width: 20%;
+    }
+
+    .imglogo {
+        width: 85px !important;
+        height: 85px;
+    }
+
+    .tick{
+        width: 30px;
+        height: 30px;
+    }
+
+    .dnone{
+        display: none !important;
+    }
+
+    .dnonen{
+        display: flex !important;
+    }
+  }
