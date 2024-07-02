@@ -104,6 +104,15 @@
         display: inline-block;
         text-align: center;
         height: 600px;
+        width: 720px;
+    }
+
+    .stremdestacados {
+        height: 1000px;
+        height: 1040px;
+        object-fit: cover;
+        display: flex;
+        margin-top: 4%;
     }
 
     .imgdirecto {
