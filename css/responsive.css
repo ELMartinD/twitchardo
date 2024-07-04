@@ -363,11 +363,11 @@
         position: relative;
         display: inline-block;
         text-align: center;
-        width: 750px;
+        width: 780px;
     }
 
     .imgdirecto {
-        width: 750px;
+        width: 720px;
         cursor: pointer;
         transition: 0.3s ease-in;
     }
