@@ -115,16 +115,20 @@ body::-webkit-scrollbar-thumb {
     height: 50px;
 }
 
-.navp2{
+.navp2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75px;
+    width: 100px;
     height: 50px;
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
 }
 
 .navp3 {
@@ -168,6 +172,7 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
     transition: 0.1s;
     font-size: 18px;
+    color: white;
 }
 
 .explorartxt:hover{
@@ -294,7 +299,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     background: #1f1f23;
     z-index: -1;
-    top: 7%;
+    top: 6%;
 }
 
 .seccion1 {

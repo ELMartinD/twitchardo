@@ -313,3 +313,14 @@
         display: flex !important;
     }
   }
+
+  @media (max-width: 1500px) {
+
+    .infodelstream {
+        display: flex;
+        width: 830px;
+        height: 110px;
+        background-color: #0e0e10;
+    }
+
+  }
