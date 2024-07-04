@@ -4,7 +4,6 @@
         display: flex;
         margin: 1% 0% 0% 0%;
         width: 100%;
-        justify-content: space-between;
     }
 
     .stremdestacados {
@@ -44,7 +43,7 @@
         color: white;
         position: absolute;
         width: 160px;
-        top: 180px;
+        top: 153px;
         left: 15px;
         text-align: center !important;
     }
