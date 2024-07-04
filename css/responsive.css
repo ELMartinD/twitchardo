@@ -1,3 +1,59 @@
+@media (max-width: 1500px) {
+
+    .stremdestacados {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        margin-top: 6%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    .imgdirecto {
+        width: 370px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+
+    .streamers1 {
+        display: inline-block;
+        margin-right: 1%;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 370px;
+    }
+
+    .vistas {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.61);
+        color: white;
+        position: absolute;
+        width: 160px;
+        top: 180px;
+        left: 15px;
+    }
+
+    .separador {
+        width: 50%;
+        height: 30px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .nomostrar{
+        display: none;
+    }
+
+    
+
+
+  }
+
+
+
 @media (max-width: 550px) {
 
     .nomostrar{
@@ -301,6 +357,21 @@
         height: 30px;
     }
 
+    .streamers1 {
+        display: inline-block;
+        margin-right: 1%;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 750px;
+    }
+
+    .imgdirecto {
+        width: 750px;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+
     .dnone{
         display: none !important;
     }
@@ -310,57 +381,3 @@
     }
   }
 
-
-  @media (max-width: 1500px) {
-
-    .stremdestacados {
-        width: 90%;
-        height: 300px;
-        display: flex;
-        margin-top: 6%;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-
-    .imgdirecto {
-        width: 370px;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-    }
-
-    .streamers1 {
-        display: inline-block;
-        margin-right: 1%;
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        width: 370px;
-    }
-
-    .vistas {
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        border-radius: 4px;
-        background-color: rgba(0, 0, 0, 0.61);
-        color: white;
-        position: absolute;
-        width: 160px;
-        top: 180px;
-        left: 15px;
-    }
-
-    .separador {
-        width: 50%;
-        height: 30px;
-        margin: 0px 10px 0px 10px;
-    }
-
-    .nomostrar{
-        display: none;
-    }
-
-    
-
-
-  }
