@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     background: #1f1f23;
     z-index: -1;
-    top: 7%;
+    top: 6%;
 }
 
 .seccion1 {
@@ -1084,6 +1084,10 @@ li.nav-item.dropdown {
 /* para que no se muestre */
 
 .dnonen{
+    display: none !important;
+}
+
+.dropdown-toggle::after{
     display: none !important;
 }
 
