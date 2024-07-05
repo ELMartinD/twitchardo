@@ -1,3 +1,52 @@
+@media (max-width: 1500px) {
+
+    .seccionpadre {
+        top: 8%;
+    }
+
+    .canalesrecomenda2 {
+        font-size: 11px;
+    }
+
+    .jugando {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        color: #adadb8;
+        text-align: start;
+    }
+
+    .botonitos {
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 6%;
+    }
+
+    .infodelstream {
+        display: flex;
+        width: 740px !important;
+        height: 110px;
+        background-color: #0e0e10;
+    }
+
+    .seccionchat {
+        display: flex;
+        margin-top: 4%;
+        width: 25%;
+        height: 800px;
+        background-color: #18181b;
+        right: 0%;
+        position: fixed;
+        z-index: 2;
+    }
+
+}
+
+
+
+
 @media (max-width: 550px) {
 
     .home{

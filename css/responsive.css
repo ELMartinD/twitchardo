@@ -1,13 +1,18 @@
 @media (max-width: 1500px) {
 
-    .canalesrecomenda2{
-        font-size: 10px;
+    .seccionpadre {
+        top: 8%;
+    }
+
+    .canalesrecomenda2 {
+        font-size: 11px;
     }
 
     .secciondirectos {
         display: flex;
         margin: 1% 0% 0% 0%;
         width: 100%;
+        justify-content: space-between;
     }
 
     .stremdestacados {
@@ -68,6 +73,13 @@
         font-size: 10px;
         color: #adadb8;
         text-align: start;
+    }
+
+        .secciondirectos {
+        display: flex;
+        margin: 1% 0% 0% 0%;
+        width: 100%;
+        justify-content: space-between;
     }
 
     
