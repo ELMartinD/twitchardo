@@ -122,6 +122,20 @@
         right: 0%;
     }
 
+    .vistas {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.61);
+        color: white;
+        position: absolute;
+        width: 160px;
+        top: 165px;
+        left: 15px;
+        text-align: center !important;
+    }
+
     .nomostrar{
         display: none;
     }
