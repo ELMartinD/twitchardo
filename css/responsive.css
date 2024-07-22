@@ -88,61 +88,6 @@
   }
 
 
-  @media (max-width: 1400px) {
-
-    .imgdirecto {
-        width: 346px;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-    }
-
-    .streamers1 {
-        display: inline-block;
-        margin-right: 1%;
-        position: relative;
-        display: inline-block;
-        width: 346px;
-        text-align: start;
-    }
-
-    .seccionpadre {
-        display: flex;
-        position: fixed;
-        flex-direction: column;
-        width: 17%;
-        height: 100%;
-        background: #1f1f23;
-        z-index: -1;
-        top: 7%;
-    }
-
-    .home {
-        position: absolute;
-        width: 80%;
-        right: 0%;
-    }
-
-    .vistas {
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        border-radius: 4px;
-        background-color: rgba(0, 0, 0, 0.61);
-        color: white;
-        position: absolute;
-        width: 160px;
-        top: 165px;
-        left: 15px;
-        text-align: center !important;
-    }
-
-    .nomostrar{
-        display: none;
-    }
-
-  }
-
-
 
 @media (max-width: 550px) {
 
