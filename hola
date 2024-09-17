@@ -1,0 +1,45 @@
+import customtkinter as ctk
+from tkinter import messagebox
+from PIL import Image
+
+# Función para guardar el DNI en un archivo de texto
+def guardar_dni():
+    dni = dni_entry.get()
+    if dni:
+        with open("dni.txt", "a") as file:
+            file.write(f"{dni}\n")
+        messagebox.showinfo("Guardado", "DNI guardado exitosamente.")
+        dni_entry.delete(0, ctk.END)  # Limpiar la entrada después de guardar
+    else:
+        messagebox.showwarning("Error", "Por favor, introduzca un DNI.")
+
+# Configuración de la ventana principal
+ctk.set_appearance_mode("dark")  # Modo oscuro opcional
+ctk.set_default_color_theme("blue")  # Tema por defecto
+
+app = ctk.CTk()
+app.geometry("400x300")
+app.title("Formulario de DNI")
+
+# Cargar imagen utilizando PIL
+image = Image.open("imagen.png")  # Asegúrate de que la imagen esté en la misma carpeta
+image_ctk = ctk.CTkImage(light_image=image, dark_image=image, size=(150, 150))
+
+# Mostrar la imagen
+image_label = ctk.CTkLabel(app, image=image_ctk, text="")
+image_label.pack(pady=10)
+
+# Etiqueta de "Introduzca su DNI"
+dni_label = ctk.CTkLabel(app, text="Introduzca su DNI", font=("Arial", 14))
+dni_label.pack(pady=10)
+
+# Campo de entrada para el DNI
+dni_entry = ctk.CTkEntry(app, width=250, placeholder_text="Ingrese su DNI")
+dni_entry.pack(pady=10)
+
+# Botón de guardar con bordes redondeados
+guardar_btn = ctk.CTkButton(app, text="Guardar", corner_radius=20, command=guardar_dni)
+guardar_btn.pack(pady=10)
+
+# Ejecutar la aplicación
+app.mainloop()
