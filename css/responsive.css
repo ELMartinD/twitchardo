@@ -203,10 +203,9 @@
     }
 
     .imgdirecto {
-        width: 720px;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-        height: 380px;
+      width: 100%;
+      height: auto;
+      max-width: 100vw;
     }
 
     .canalimg {
@@ -393,19 +392,9 @@
     }
 
     .streamers1 {
-        display: inline-block;
-        margin-right: 1%;
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        width: 780px;
-    }
-
-    .imgdirecto {
-        width: 720px;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-    }
+  width: 100%;
+  max-width: 100vw;
+}
 
     .dnone{
         display: none !important;
